@@ -11,18 +11,14 @@
  */
 
 
-export interface BadRequestResponseDto { 
+export interface RefreshTokenResponseDto { 
     /**
-     * HTTP status code of the error
+     * The ID token for the user
      */
-    statusCode: number;
+    idToken: string;
     /**
-     * Short descriptions of the errors
+     * The access token for the user
      */
-    message: Array<string>;
-    /**
-     * Error type
-     */
-    error: string;
+    accessToken: string;
 }
 
