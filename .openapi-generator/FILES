@@ -9,6 +9,7 @@ encoder.ts
 git_push.sh
 index.ts
 model/badRequestResponseDto.ts
+model/emailConfirmationRequiredResponseDto.ts
 model/loginRequestDto.ts
 model/loginResponseDto.ts
 model/models.ts

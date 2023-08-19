@@ -11,18 +11,10 @@
  */
 
 
-export interface LoginRequestDto { 
+export interface EmailConfirmationRequiredResponseDto { 
     /**
-     * The email of the user
+     * An informational message indicating the need for email confirmation
      */
-    email: string;
-    /**
-     * The password of the user
-     */
-    password: string;
-    /**
-     * The new password to set for the user (optional)
-     */
-    newPassword?: string;
+    message: string;
 }
 

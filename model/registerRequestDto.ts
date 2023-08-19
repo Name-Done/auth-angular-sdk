@@ -17,7 +17,7 @@ export interface RegisterRequestDto {
      */
     email: string;
     /**
-     * The password of the user (minimum 8 characters)
+     * The password of the user
      */
     password: string;
     /**

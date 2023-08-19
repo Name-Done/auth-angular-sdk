@@ -21,6 +21,8 @@ import { Observable }                                        from 'rxjs';
 // @ts-ignore
 import { BadRequestResponseDto } from '../model/badRequestResponseDto';
 // @ts-ignore
+import { EmailConfirmationRequiredResponseDto } from '../model/emailConfirmationRequiredResponseDto';
+// @ts-ignore
 import { LoginRequestDto } from '../model/loginRequestDto';
 // @ts-ignore
 import { LoginResponseDto } from '../model/loginResponseDto';
