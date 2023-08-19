@@ -11,14 +11,10 @@
  */
 
 
-export interface RefreshTokenResponseDto { 
+export interface AcceptedResponseDto { 
     /**
-     * The ID token for the user
+     * An informational message
      */
-    idToken: string;
-    /**
-     * The access token for the user
-     */
-    accessToken: string;
+    message: string;
 }
 

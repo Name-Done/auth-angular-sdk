@@ -1,5 +1,6 @@
+export * from './acceptedResponseDto';
 export * from './badRequestResponseDto';
-export * from './emailConfirmationRequiredResponseDto';
+export * from './confirmRequestDto';
 export * from './loginRequestDto';
 export * from './loginResponseDto';
 export * from './refreshTokenRequestDto';
